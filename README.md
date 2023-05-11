@@ -3,7 +3,11 @@ Quick and easy BRUKER .raw converter into .xy and .xyn files.
 The repository makes use of xylib library (https://github.com/wojdyr/xylib)
 
 # Installation
-The package can be used both from terminal and as standalone program (Windows user, .exe file is given in ... folder).
+## Release v0.0.1 
+The package can be used as a Jupyter notebook.
+Please, be aware that installation of xylib-py package on windows machine can be difficult/impossible. 
+Package works well on UNIX systems. I suggest to install jupyter on a WSL in linux.
+Alternatively, .ipynb file can be loaded in google colab and used there.
 
 ## Requirements
 When used from terminal this repo needs the following packages:
