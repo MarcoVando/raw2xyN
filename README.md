@@ -10,9 +10,9 @@ Package works well on UNIX systems. I suggest to install jupyter on a WSL in lin
 Alternatively, .ipynb file can be loaded in google colab and used there.
 
 ## Release v0.1.0 
-Bug fixes
-Added some functionalities
-Added generation of .log file
+Bug fixes  
+Added some functionalities  
+Added generation of .log file  
 
 ## Requirements
 When used from terminal this repo needs the following packages:
