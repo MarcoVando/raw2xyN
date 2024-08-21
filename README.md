@@ -23,6 +23,10 @@ When used from terminal this repo needs the following packages:
 
 For proper installation of xylib-py, please refer to https://github.com/wojdyr/xylib
 
+### Mac M chip users with conda
+I suggest to create a dedicated conda environment using the x86 architecture. This should avoid any problems with numpy and dependencies. Run this command:  
+`CONDA_SUBDIR=osx-64 conda create -n rawconvx86_env numpy -c conda-forge`
+
 # Use
 raw2xyN can be executed both from terminal and as standalone program.
 
