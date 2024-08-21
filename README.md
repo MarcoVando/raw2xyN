@@ -59,7 +59,7 @@ run the following command:
 raw2xyN can be executed both from terminal and as standalone program.
 
 ## execution from terminal
-Once all the requirements are installed in a proper python environment, the program can be launched by executing raw2xyN.py in the commandline.  
+Once all the requirements are installed in a proper python environment, the program can be launched by executing main.py in the commandline.  
 A GUI will appear asking for selected files or a parent directory where .raw files should be present. 
 
 <img width="299" alt="image" src="https://github.com/user-attachments/assets/4b2edfec-9e97-48b2-beb2-7b11f5fa7ad5">
