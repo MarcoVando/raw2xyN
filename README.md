@@ -27,6 +27,31 @@ For proper installation of xylib-py, please refer to https://github.com/wojdyr/x
 I suggest to create a dedicated conda environment using the x86 architecture. This should avoid any problems with numpy and dependencies. Run this command:  
 `CONDA_SUBDIR=osx-64 conda create -n rawconvx86_env numpy -c conda-forge`
 
+#### Troubleshooting
+If u get this error trying to install xylib via pip:
+```
+  × python setup.py bdist_wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [7 lines of output]
+      running bdist_wheel
+      running build
+      running build_ext
+      building '_xylib' extension
+      swigging xylib.i to xylib_wrap.cpp
+      swig -python -c++ -modern -modernargs -py3 -o xylib_wrap.cpp xylib.i
+      error: command 'swig' failed: No such file or directory
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for xylib-py
+  Running setup.py clean for xylib-py
+Successfully built Boost
+Failed to build xylib-py
+ERROR: ERROR: Failed to build installable wheels for some pyproject.toml based projects (xylib-py)
+```
+
+
+
 # Use
 raw2xyN can be executed both from terminal and as standalone program.
 
