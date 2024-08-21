@@ -19,7 +19,7 @@ When used from terminal this repo needs the following packages:
  - swig (required by xylib, pip installation)
  - Boost (required by xylib, pip installation)
  - glob
- - Tkinter
+ - Qt5 (conda install pyqt)
  - xylib-py
  - numpy
 
