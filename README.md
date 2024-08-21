@@ -15,10 +15,12 @@ Added generation of .log file
 
 # Installation
 ## Requirements
-When used from terminal this repo needs the following packages:
+When used from terminal this repo needs the following packages:  
+ - swig (required by xylib, pip installation)
+ - Boost (required by xylib, pip installation)
  - glob
  - Tkinter
- - xylib-py (and its requirements (swig and boost)
+ - xylib-py
  - numpy
 
 For proper installation of xylib-py, please refer to https://github.com/wojdyr/xylib
@@ -49,7 +51,8 @@ Successfully built Boost
 Failed to build xylib-py
 ERROR: ERROR: Failed to build installable wheels for some pyproject.toml based projects (xylib-py)
 ```
-
+run the following command:   
+`pip install git+https://github.com/wojdyr/xylib.git`
 
 
 # Use
